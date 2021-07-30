@@ -30,7 +30,7 @@ h1 {
   text-align: center;
   padding: 1.5rem 2.5rem;
   /*background-image: linear-gradient(120deg, #de6262 0%, #ffb88c 100%);*/
-  background-image: linear-gradient(120deg, #8E0E00 0%, #1F1C18 100%);
+  background-image: linear-gradient(120deg, #c94436 0%, #ca4545 100%);
   margin: 0 0 2rem 0;
   font-size: 1.5rem;
   color: white;
@@ -73,7 +73,7 @@ p_title {
 
 .card2 {
   margin: 1rem;
-  background: white;
+  /* background: white; */
   box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
   border-radius: 12px;
   overflow: hidden;
@@ -107,14 +107,14 @@ p_title {
 .card:nth-child(2n) h1 {
   /*background-image: linear-gradient(120deg, #feac5e 0%, #c779d0 50%, #4bc0c8 100%);*/
   /*background-image: linear-gradient(120deg, #085078 0%, #85d8ce 100%);*/
-  background-image: linear-gradient(120deg, #EB5757 0%, #000000  100%);
+  background-image: linear-gradient(120deg, #EB5757 0%, #e77777  100%);
 }
 
 .card:nth-child(4n) h1 {
-  background-image: linear-gradient(120deg, #ED213A 0%, #93291E 100%);
+  background-image: linear-gradient(120deg, #ED213A 0%, #ee9b92 100%);
 }
 
 .card:nth-child(5n) h1 {
-  background-image: linear-gradient(120deg, #870000 0%, #190A05 100%);
+  background-image: linear-gradient(120deg, #c71c1c 0%, #ee8881 100%);
 }
 
