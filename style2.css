@@ -71,14 +71,34 @@ p_title {
   transform: translate3D(0, -2px, 0);
 }
 
+.card2 {
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+.card2:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
 @media screen and (min-width: 600px) {
   .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+  .card2 {
     flex: 1 1 calc(50% - 2rem);
   }
 }
 
 @media screen and (min-width: 900px) {
   .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+  .card2 {
     flex: 1 1 calc(33% - 2rem);
   }
 }
